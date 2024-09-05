@@ -1,0 +1,555 @@
+/* =========== site setting starts =============== */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans";
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70%;
+}
+
+h3 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+button {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+}
+
+/* =========== site setting ends =============== */
+
+/* =========== header starts ============= */
+header {
+  background: #F4FDF4;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 14px;
+}
+
+.nav-btn {
+  padding-right: 20px;
+  border-radius: 40px;
+  border: 1px solid #3AB745;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 380px;
+
+}
+
+.qt-btn {
+  height: 100%;
+  border-radius: 40px;
+  border: none;
+  background: #3AB745;
+  display: inline-flex;
+  padding: 8px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #FFF;
+}
+
+.call-btn {
+  border: none;
+  border-radius: 40px;
+  background: #FFF;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  padding: 0 20px;
+
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/* =========== header ends ============= */
+
+/* =========== hero starts ============= */
+#hero {
+  background: #F4FDF4;
+}
+
+.hero-container {
+  margin: 0 auto;
+  padding: 95px 0 48px 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 85px;
+}
+
+.hero-features {
+  margin-top: 56px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#hero p {
+  margin-top: 24px;
+}
+
+.hero-features h2 {
+  height: 100%;
+  padding: 32px;
+  border-radius: 10px;
+  background: #3AB745;
+  color: #FFF;
+}
+
+.hero-features h3 {
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #ABE2B0;
+  background: #FFF;
+  color: #3AB745;
+  ;
+}
+
+/* =========== hero ends ============= */
+
+/* ============= intro starts ============ */
+#intro {
+  background-color: #F4FDF4;
+  padding: 48px 0px;
+}
+
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #DFF3DF;
+  padding: 72px 70px;
+}
+
+.intro-container .intro-right p {
+  color: #000;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 31.5px */
+}
+
+.intro-left .p1 {
+  margin-top: 22px;
+  color: #343F18;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  /* 24px */
+}
+
+.intro-left .p2 {
+  color: #343F18;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+#intro img {
+  mix-blend-mode: multiply;
+}
+
+/* ============= intro ends ============ */
+
+/* ========= services starts ============ */
+
+#services {
+  background-color: #F4FDF4;
+  padding: 48px 0;
+}
+
+.services-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#services h4 {
+  color: #11A11E;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 33.6px */
+  margin-bottom: 8px;
+}
+
+#services p {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 40px;
+}
+
+/* ========= services ends ============ */
+
+/* ========== featured starts ========== */
+
+#featured {
+  background-color: #F4FDF4;
+  padding: 48px 0;
+}
+
+.featured-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#featured h2 {
+  color: #333;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.featured-text {
+  border-radius: 10px;
+  border: 1px solid #D7D7D7;
+  padding: 60px 70px;
+}
+
+#featured p {
+  color: #01680A;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 17px;
+}
+
+#featured h5 {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+#featured h6 {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  text-align: center;
+}
+
+/* ========== featured ends ========== */
+
+/* ============ quote starts ============== */
+
+#quote {
+  background-color: #F4FDF4;
+  padding: 48px 0;
+}
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 78px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url('assets/quote_bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 80px;
+  border-radius: 10px;
+}
+
+
+#quote h2 {
+  color: #FFF;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70%;
+  margin-bottom: 32px;
+}
+
+#quote p {
+  color: #FFF;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+#quote input {
+  display: flex;
+  width: 100%;
+  padding: 6px 22px;
+  align-items: center;
+  border-radius: 40px;
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.90);
+  margin-bottom: 22px;
+}
+
+input::placeholder,
+textarea {
+  color: #01680A;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+textarea {
+  display: flex;
+  width: 100%;
+  height: 95px;
+  padding: 6px 22px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 20px;
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.90);
+  margin-bottom: 22px;
+}
+
+input.submit-btn {
+  color: #1A9625;
+  font-family: "Roboto Condensed";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* ============ quote ends ============== */
+
+/* ========== social proof starts ============== */
+#social-proof {
+  background-color: #F4FDF4;
+  padding: 48px 0;
+}
+
+.social-proof-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-proof-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ========== social proof ends ============== */
+
+/* ============ footer starts ============== */
+
+footer {
+  background-color: #F4FDF4;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 56px;
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 48px 0;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+footer .qt-btn {
+  margin-top: 30px;
+}
+
+.footer-call-btn {
+  display: flex;
+  padding: 8px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 40px;
+  border: 1px solid #3AB745;
+  background: #FFF;
+}
+
+.facebook-btn {
+  display: flex;
+  padding: 8px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 40px;
+  border: 1px solid #3AB745;
+  background: #FFF;
+}
+
+.copyright {
+  margin: 0 auto;
+  background: #DFF3DF;
+  padding: 18px 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* ============ footer ends ============== */
+
+/* =============================
+            responsive
+   ============================= */
+@media only screen and (max-width: 767px) {
+  header {
+    display: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    text-align: center;
+  }
+
+  #hero,
+  #intro,
+  #services,
+  #featured,
+  #quote,
+  #social-proof {
+    padding: 20px;
+  }
+
+  .hero-features {
+    justify-content: space-around;
+  }
+
+  .hero-container-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #hero img,
+  .services-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .hero-container,
+  .intro-container,
+  .services-container,
+  .featured-container,
+  .quote-container,
+  .social-proof-bottom,
+  .footer-container,
+  .footer-right {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-container h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .intro-container p,
+  .p1,
+  p2 {
+    text-align: center;
+  }
+
+  .services-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
