@@ -324,7 +324,7 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 78px;
+  gap: 100px;
   max-width: 1200px;
   margin: 0 auto;
   background-image: url('assets/quote_bg.png');
@@ -358,7 +358,7 @@ ul li a {
   width: 100%;
   padding: 6px 22px;
   align-items: center;
-  border-radius: 40px;
+  border-radius: 5px;
   border: 1px solid #FFF;
   background: rgba(255, 255, 255, 0.90);
   margin-bottom: 22px;
